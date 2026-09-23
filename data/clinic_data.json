@@ -1,0 +1,18 @@
+{
+  "patients": [
+    {"patient_id": "P001", "name": "Alice Rao", "dob": "1990-04-12", "phone": "555-0101"},
+    {"patient_id": "P002", "name": "John Smith", "dob": "1985-11-02", "phone": "555-0102"},
+    {"patient_id": "P003", "name": "Meera Iyer", "dob": "1978-06-23", "phone": "555-0103"}
+  ],
+  "slots": [
+    {"slot_id": "S001", "doctor": "Dr. Chen", "specialty": "general", "datetime": "2026-09-28T09:00", "available": true},
+    {"slot_id": "S002", "doctor": "Dr. Chen", "specialty": "general", "datetime": "2026-09-28T09:30", "available": true},
+    {"slot_id": "S003", "doctor": "Dr. Chen", "specialty": "general", "datetime": "2026-09-28T10:00", "available": true},
+    {"slot_id": "S004", "doctor": "Dr. Patel", "specialty": "general", "datetime": "2026-09-29T09:00", "available": true},
+    {"slot_id": "S005", "doctor": "Dr. Patel", "specialty": "general", "datetime": "2026-09-29T09:30", "available": false},
+    {"slot_id": "S006", "doctor": "Dr. Wu", "specialty": "dermatology", "datetime": "2026-09-30T14:00", "available": true}
+  ],
+  "appointments": [
+    {"appointment_id": "A001", "patient_id": "P002", "slot_id": "S005", "status": "booked"}
+  ]
+}
